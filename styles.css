@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     max-width: 100%;
-    background-color: #fbf7f0;
+    background-color: black;
     height: 100%;
     color: #f2ede4;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
 }
 
 h3 {
@@ -26,9 +26,9 @@ h3 {
 #data-entry,
 #prediction,
 #diagnosis-form {
-    margin: 2% auto; /* Convert margin to a percentage */
-    width: 40%; /* Convert width to a percentage */
-    max-width: 70%; /* Convert max-width to a percentage */
+    margin: 2% auto;
+    width: 40%;
+    max-width: 70%;
     padding: 3%;
     background-color: rgba(153, 102, 204, 0.3);
     border: 1px solid #512f89;
@@ -37,16 +37,16 @@ h3 {
     align-content: center;
 }
 
-/* Add this CSS rule to adjust the width of the gender select field */
 #gender {
     width: 99%;
 }
+
 table {
-    margin: 2% auto; /* Convert margin to a percentage */
-    width: 70%; /* Convert width to a percentage */
-    max-width: 90%; /* Convert max-width to a percentage */
+    margin: 2% auto;
+    width: 85%;
+    max-width: 100%;
     padding: 3%;
-    font-size: 1vw; /* Use viewport units for font size to make it responsive */
+    font-size: 1vw;
     background-color: rgba(153, 102, 204, 0.3);
     border: 1px solid #512f89;
     border-radius: 10px;
@@ -63,15 +63,13 @@ select,
 #predict-duration,
 #predict-activity,
 #predict-stress {
-    margin: 2% 0; /* Convert margin to a percentage */
-    padding: 2%; /* Convert padding to a percentage */
+    margin: 2% 0;
+    padding: 2%;
     width: 95%;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: white;
 }
-
-
 
 #submit-button,
 #train-button,
@@ -86,7 +84,7 @@ select,
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw; /* Use viewport units for font size to make it responsive */
+    font-size: 1vw;
 }
 
 #submit-button:hover,
@@ -98,14 +96,15 @@ select,
 }
 
 th, td {
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     border: 1px solid #ccc;
-    font-size: 1vw; /* Use viewport units for font size to make it responsive */
+    font-size: 1vw;
+    width: auto;
 }
 
 #predicted-quality {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw; /* Use viewport units for font size to make it responsive */
+    font-size: 1vw;
     margin-top: 2%;
 }
