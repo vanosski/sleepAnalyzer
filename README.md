@@ -1,6 +1,4 @@
-Here’s a full README for your Sleep Quality Analyzer project:
 
-```markdown
 # Sleep Quality Analyzer
 
 ## Description
